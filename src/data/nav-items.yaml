@@ -193,6 +193,8 @@
       path: /patterns/overflow-content/
     - title: Search
       path: /patterns/search-pattern/
+    - title: Status icons
+      path: /patterns/status-icons/
     - title: Text toolbar
       path: /patterns/text-toolbar-pattern/
 - title: Community assets

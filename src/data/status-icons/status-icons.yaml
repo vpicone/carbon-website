@@ -1,0 +1,69 @@
+---
+attention:
+  high:
+    - name: warning
+      token: support01
+      usage:
+        Indicates a value that is outside of an acceptable range or formatted
+        incorrectly
+    - name: misuse
+      token: support01
+      usage:
+        Indicates a value that is outside of an acceptable range or formatted
+        incorrectly
+    - name: error
+      token: support01
+      usage: Indicates a severe event that needs immediate attention
+    - name: error alt
+      token: support01
+      usage:
+        Indicates a value that is outside of an acceptable range or formatted
+        incorrectly
+    - name: warning-inverted
+      token: orange50
+      secondaryToken: orange40
+      usage:
+        Indicates a value that is outside of an acceptable range or formatted
+        incorrectly
+    - name: warning
+      token: support03
+      secondaryToken: yellow50
+      usage:
+        Indicates a value that is outside of an acceptable range or formatted
+        incorrectly
+  medium:
+    - name: undefined
+      token: purple60
+      usage:
+        Indicates a value that is outside of an acceptable range or formatted
+        incorrectly
+    - name: success-circle
+      token: support02
+      usage:
+        Indicates the clearing of one or more previously reported alarms.
+        Implies no issues are present
+    - name: success
+      token: support02
+      usage: Indicates a severe event that needs immediate attention
+    - name: pending
+      token: icon02
+      usage: Lorem ipsum dolor adipscing lorem ipsum
+    - name: loading
+      token: interactive01
+      secondaryToken: ui02
+      usage: Lorem ipsum dolor adipscing lorem ipsum
+    - name: renew
+      token: support03
+      usage: Lorem ipsum dolor adipscing lorem ipsum
+    - name: renew alt
+      token: support03
+      usage: Lorem ipsum dolor adipscing lorem ipsum
+    - name: progress
+      token: support03
+      usage: Lorem ipsum dolor adipscing lorem ipsum
+    - name: progress incomplete
+      token: support03
+      usage: Lorem ipsum dolor adipscing lorem ipsum
+    - name: progress complete
+      token: support03
+      usage: Lorem ipsum dolor adipscing lorem ipsum
