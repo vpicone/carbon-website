@@ -10,6 +10,16 @@ import {
 
 import Warning from './light/warning.js';
 import WarningOutline from './light/warning--outline.js';
+import Misuse from './light/misuse.js';
+import MisuseOutline from './light/misuse--outline.js';
+import Error from './light/error.js';
+import ErrorOutline from './light/error--outline.js';
+import ErrorAlt from './light/error-alt.js';
+// import ErrorAltOutline from './light/error-alt--outline.js'; // doesn't exist
+import WarningInverted from './light/warning-inverted.js';
+import WarningInvertedOutline from './light/warning-inverted--outline.js';
+import WarningAlt from './light/warning-alt.js';
+import WarningAltOutline from './light/warning-alt--outline.js';
 
 const StatusIcons = ({ attention }) => {
   // const data = data[attention]
@@ -25,11 +35,41 @@ const StatusIcons = ({ attention }) => {
         </StructuredListRow>
       </StructuredListHead>
       <StructuredListBody>
-      <StructuredListRow>
-          <StructuredListCell><Warning /><WarningOutline /></StructuredListCell>
-          <StructuredListCell>Name</StructuredListCell>
-          <StructuredListCell>Token</StructuredListCell>
-          <StructuredListCell>Usage</StructuredListCell>
+        <StructuredListRow>
+            <StructuredListCell><Warning /><WarningOutline /></StructuredListCell>
+            <StructuredListCell>Warning</StructuredListCell>
+            <StructuredListCell>support-01</StructuredListCell>
+            <StructuredListCell>Lorem ipsum dolor adipscing lorem ipsum. Lorem ipsum dolor adipscing lorem ipsum. Lorem ipsum dolor adipscing lorem ipsum.</StructuredListCell>
+        </StructuredListRow>
+        <StructuredListRow>
+            <StructuredListCell><Misuse /><MisuseOutline /></StructuredListCell>
+            <StructuredListCell>Warning</StructuredListCell>
+            <StructuredListCell>support-01</StructuredListCell>
+            <StructuredListCell>Lorem ipsum dolor adipscing lorem ipsum. Lorem ipsum dolor adipscing lorem ipsum. Lorem ipsum dolor adipscing lorem ipsum.</StructuredListCell>
+        </StructuredListRow>
+        <StructuredListRow>
+            <StructuredListCell><Error /><ErrorOutline /></StructuredListCell>
+            <StructuredListCell>Warning</StructuredListCell>
+            <StructuredListCell>support-01</StructuredListCell>
+            <StructuredListCell>Lorem ipsum dolor adipscing lorem ipsum. Lorem ipsum dolor adipscing lorem ipsum. Lorem ipsum dolor adipscing lorem ipsum.</StructuredListCell>
+        </StructuredListRow>
+        <StructuredListRow>
+            <StructuredListCell><ErrorAlt /></StructuredListCell>
+            <StructuredListCell>Warning</StructuredListCell>
+            <StructuredListCell>support-01</StructuredListCell>
+            <StructuredListCell>Lorem ipsum dolor adipscing lorem ipsum. Lorem ipsum dolor adipscing lorem ipsum. Lorem ipsum dolor adipscing lorem ipsum.</StructuredListCell>
+        </StructuredListRow>
+        <StructuredListRow>
+            <StructuredListCell><WarningInverted /><WarningInvertedOutline /></StructuredListCell>
+            <StructuredListCell>Warning</StructuredListCell>
+            <StructuredListCell>support-01</StructuredListCell>
+            <StructuredListCell>Lorem ipsum dolor adipscing lorem ipsum. Lorem ipsum dolor adipscing lorem ipsum. Lorem ipsum dolor adipscing lorem ipsum.</StructuredListCell>
+        </StructuredListRow>
+        <StructuredListRow>
+            <StructuredListCell><WarningAlt /><WarningAltOutline /></StructuredListCell>
+            <StructuredListCell>Warning</StructuredListCell>
+            <StructuredListCell>support-01</StructuredListCell>
+            <StructuredListCell>Lorem ipsum dolor adipscing lorem ipsum. Lorem ipsum dolor adipscing lorem ipsum. Lorem ipsum dolor adipscing lorem ipsum.</StructuredListCell>
         </StructuredListRow>
       </StructuredListBody>
     </StructuredListWrapper>
