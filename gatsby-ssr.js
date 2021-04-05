@@ -29,6 +29,7 @@ export const onRenderBody = ({ setHeadComponents }) => {
     />,
     <script
       src="https://cdn.usefathom.com/script.js"
+      key="fathom-script"
       spa="auto"
       site="VMSGXQRS"
       defer
